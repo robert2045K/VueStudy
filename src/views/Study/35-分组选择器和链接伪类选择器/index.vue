@@ -43,4 +43,15 @@ a:active {
   color: blue;
   text-decoration: none;
 }
+
+
+/**一般写下面2个就可以了**
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: red;
+}
+*/
 </style>
