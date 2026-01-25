@@ -35,4 +35,13 @@ export default defineConfigWithVueTs(
   skipFormatting,
 
   ...pluginOxlint.configs['flat/recommended'],
+
+  {
+    // 自定义规则覆盖
+    rules: {
+      'vue/multi-word-component-names': 'off', // 完全关闭该检查
+      // 或者如果你只想忽略 index.vue，可以使用下面的配置：
+      // 'vue/multi-word-component-names': ['error', { ignores: ['index'] }]
+    },
+  },
 )

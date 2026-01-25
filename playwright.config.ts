@@ -74,7 +74,7 @@ export default defineConfig({
     // {
     //   name: 'Mobile Safari',
     //   use: {
-    //     ...devices['iPhone 12'],
+    //     ...devices['iPhone 12-a标签及锚点'],
     //   },
     // },
 

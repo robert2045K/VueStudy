@@ -17,6 +17,18 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue'),
     },
+    {
+      path: '/study/:userId?',
+      name: 'study',
+      component: () => import('@/views/Study/04/index.vue'),
+      props: true,
+    },
+    {
+      path: '/start',
+      name: 'start',
+      component: () => import('@/views/Study/35-分组选择器和链接伪类选择器/index.vue'),
+      props: true,
+    },
   ],
 })
 
