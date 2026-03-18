@@ -26,7 +26,7 @@ const router = createRouter({
     {
       path: '/start',
       name: 'start',
-      component: () => import('@/views/Study/37-结构伪类选择器, 以及表格隔行变色效果/index.vue'),
+      component: () => import('@/views/Study/47-背景复合写法以及视差滚动/index.vue'),
       props: true,
     },
   ],
